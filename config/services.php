@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'aggregator' => [
+        'url' => env('AGGREGATOR_URL', 'https://www.alphavantage.co'),
+        'key' => env('AGGREGATOR_API_KEY')
+    ],
+
 ];
